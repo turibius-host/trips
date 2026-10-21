@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Shanghai Family Holiday, 21–29 Dec 2026</title>
+<style>
+:root{box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px);
+--bg:#f2f5f8;--card:#fff;--ink:#16202e;--muted:#5d6b7d;--line:#dbe2ea;--accent:#b3262e;--tip:#fff4d6;--tipink:#6a4a00;--hero:#10203a;color-scheme:light dark}
+@media(prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0c1320;--card:#162033;--ink:#e8edf4;--muted:#9aa9bd;--line:#26334a;--tip:#2d2812;--tipink:#efd98a;--hero:#08101e;--accent:#e0555d}}
+:root[data-theme="dark"]{--bg:#0c1320;--card:#162033;--ink:#e8edf4;--muted:#9aa9bd;--line:#26334a;--tip:#2d2812;--tipink:#efd98a;--hero:#08101e;--accent:#e0555d}
+html{scroll-padding-top:env(safe-area-inset-top,0px);scroll-behavior:smooth}
+*,*::before,*::after{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.55 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+h1,h2,h3{font-family:"Iowan Old Style",Palatino,Georgia,serif;line-height:1.2;margin:0}
+.hero{background:var(--hero);color:#fff;padding:44px 20px 0;position:relative;overflow:hidden}
+.wrap{max-width:860px;margin:0 auto}
+.hero h1{font-size:clamp(2rem,7vw,3.4rem);font-weight:700;letter-spacing:-.01em}
+.hero p{margin:10px 0 0;max-width:34em;color:#c9d4e4}
+.chips{display:flex;flex-wrap:wrap;gap:8px;margin:20px 0 0;padding:0 0 4px;list-style:none}
+.chips li{background:rgba(255,255,255,.12);border:1px solid rgba(255,255,255,.2);padding:6px 12px;border-radius:999px;font-size:.88rem}
+.sky{display:block;width:100%;height:110px;margin-top:22px}
+nav{display:flex;gap:8px;overflow-x:auto;padding:12px 20px;max-width:860px;margin:0 auto}
+nav a{flex:none;color:var(--ink);text-decoration:none;border:1px solid var(--line);background:var(--card);padding:6px 14px;border-radius:999px;font-size:.9rem}
+nav a:hover,nav a:focus-visible{border-color:var(--accent);outline:none}
+main{max-width:860px;margin:0 auto;padding:8px 20px 56px}
+section{margin-top:36px}
+section>h2{font-size:1.5rem;margin-bottom:14px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:16px 18px}
+.scroll{overflow-x:auto}
+table{width:100%;border-collapse:collapse;font-size:.95rem}
+th,td{text-align:left;padding:10px 12px;border-bottom:1px solid var(--line);vertical-align:top}
+th{font-weight:600;color:var(--muted);font-size:.85rem}
+tr:last-child td{border-bottom:0}
+td:first-child{white-space:nowrap;font-weight:600}
+.people{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:12px}
+.people b{font-size:2rem;font-family:Georgia,serif;display:block;line-height:1}
+.people span{color:var(--muted);font-size:.92rem}
+details.day{background:var(--card);border:1px solid var(--line);border-radius:14px;margin-bottom:12px;overflow:hidden}
+details.day summary{cursor:pointer;list-style:none;display:flex;gap:14px;align-items:center;padding:14px 18px}
+details.day summary::-webkit-details-marker{display:none}
+details.day summary:focus-visible{outline:2px solid var(--accent);outline-offset:-2px}
+.dn{flex:none;background:var(--accent);color:#fff;border-radius:10px;padding:6px 10px;font-weight:700;font-size:.85rem;text-align:center;min-width:58px}
+.dt small{display:block;color:var(--muted);font-size:.85rem}
+.dt strong{font-family:"Iowan Old Style",Palatino,Georgia,serif;font-size:1.12rem}
+.chev{margin-left:auto;transition:transform .2s;color:var(--muted)}
+details[open] .chev{transform:rotate(180deg)}
+.db{padding:2px 18px 18px;border-top:1px solid var(--line)}
+.db h3{font-size:1rem;margin:14px 0 4px;color:var(--accent)}
+.db ul{margin:8px 0 0;padding-left:20px}
+.db li{margin:5px 0}
+.tip{margin-top:14px;background:var(--tip);color:var(--tipink);border-radius:10px;padding:10px 14px;font-size:.93rem}
+.facts{display:grid;grid-template-columns:max-content 1fr;gap:6px 16px;margin:12px 0 0;font-size:.93rem}.facts dt{color:var(--muted)}.facts dd{margin:0}
+.fl{display:grid;gap:12px}.fh{margin-bottom:12px}.fh span{color:var(--muted);font-size:.9rem}.fr{display:flex;gap:16px;align-items:center;justify-content:space-between;flex-wrap:wrap}.ft{font-family:Georgia,serif;font-size:1.6rem;font-weight:700}.ar{color:var(--accent);font-size:1.4rem}.fr small{color:var(--muted)}
+.stays{display:grid;gap:12px}
+.stay h3{font-size:1.15rem}
+.stay .meta{color:var(--muted);font-size:.9rem;margin:2px 0 8px}
+.tag{display:inline-block;font-size:.8rem;padding:2px 10px;border-radius:999px;border:1px solid var(--line);white-space:nowrap}
+.tag.ok{background:#dff3e6;color:#17623a;border-color:#b7e0c7}
+.tag.todo{background:#fde4e4;color:#912a2a;border-color:#f3bcbc}
+.tag.tbc{background:#fff0cf;color:#7a5400;border-color:#f2d98f}
+@media(prefers-color-scheme:dark){:root:not([data-theme="light"]) .tag.ok{background:#173a28;color:#8fdcb0;border-color:#24543b}:root:not([data-theme="light"]) .tag.todo{background:#4a2020;color:#f3a7a7;border-color:#6a3030}:root:not([data-theme="light"]) .tag.tbc{background:#44361a;color:#f0cf7e;border-color:#5f4a20}}
+.tips{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:12px}
+.tips h3{font-size:1rem;margin-bottom:4px}
+.tips p{margin:0;color:var(--muted);font-size:.93rem}
+.dec{margin:0;padding-left:20px}.dec li{margin:6px 0}
+footer{max-width:860px;margin:0 auto;padding:0 20px 40px;color:var(--muted);font-size:.85rem}
+@media(max-width:560px){td:first-child{white-space:normal}}
+@media(prefers-reduced-motion:reduce){*{transition:none!important;scroll-behavior:auto!important}}
+</style>
+</head>
+<body>
+<header class="hero"><div class="wrap" id="hero"></div>
+<svg class="sky" viewBox="0 0 800 110" preserveAspectRatio="xMidYMax slice" aria-hidden="true"><g fill="#1c3558"><rect x="0" y="80" width="800" height="30"/><rect x="40" y="58" width="26" height="52"/><rect x="74" y="66" width="20" height="44"/><rect x="130" y="50" width="30" height="60"/><rect x="170" y="70" width="22" height="40"/><rect x="560" y="62" width="28" height="48"/><rect x="598" y="48" width="24" height="62"/><rect x="640" y="68" width="30" height="42"/><rect x="690" y="56" width="22" height="54"/><rect x="730" y="72" width="34" height="38"/></g><g fill="#2a4a78"><rect x="262" y="40" width="34" height="70"/><polygon points="306,110 306,28 322,28 322,110"/><rect x="332" y="10" width="14" height="100"/><polygon points="352,110 352,34 374,34 374,110"/></g><g fill="#e0555d"><circle cx="445" cy="70" r="15"/><circle cx="445" cy="34" r="9"/><rect x="443" y="40" width="4" height="40"/><rect x="443" y="3" width="2" height="25"/></g><g fill="#3a5f96"><rect x="400" y="52" width="6" height="58"/><rect x="484" y="52" width="6" height="58"/><rect x="396" y="86" width="98" height="24"/></g></svg>
+</header>
+<nav id="nav" aria-label="Sections"></nav>
+<main id="main"></main>
+<footer id="foot"></footer>
+
+<script id="trip-data" type="application/json">
+{
+ "title": "Shanghai Family Holiday",
+ "tagline": "Two Disney days, orcas, a Suzhou day trip and four days of Shanghai sightseeing.",
+ "accent": "#b3262e",
+ "chips": ["21–29 Dec 2026", "9 days, 8 nights", "4 adults + 4 children"],
+ "travelers": [
+  {"label": "Adults", "count": 4, "note": ""},
+  {"label": "Children", "count": 4, "note": "Ages 14, 12, 7 and 3"}
+ ],
+ "flights": [
+  {"dir":"Depart","date":"Mon 21 Dec","flight":"SQ 830","aircraft":"Airbus A380-800","cabin":"Economy","from":{"code":"SIN","time":"09:20","city":"Singapore","airport":"Changi","terminal":"Terminal 3"},"to":{"code":"PVG","time":"14:35","city":"Shanghai","airport":"Pudong","terminal":"Terminal 2"}},
+  {"dir":"Return","date":"Tue 29 Dec","flight":"SQ 827","aircraft":"Airbus A350-900","cabin":"Economy","from":{"code":"PVG","time":"08:20","city":"Shanghai","airport":"Pudong","terminal":"Terminal 2"},"to":{"code":"SIN","time":"14:10","city":"Singapore","airport":"Changi","terminal":""}}
+ ],
+ "days": [
+  {"n":1,"date":"Mon 21 Dec","title":"Arrival and Shanghai Village","glance":"Arrival, Shanghai Village (Bicester Village)","steps":["Land at Pudong Terminal 2 at 14:35 on SQ 830, then clear immigration and collect bags.","Transfer to Toy Story Hotel and check in.","Head to Shanghai Village (Bicester Village) for a little shopping. It is near Disney Resort, so it makes an easy first stop.","Have dinner at the outlet or nearby, then return to the hotel."],"tip":"With a 14:35 landing, keep the evening light. Published hours are 10am–10pm Monday to Thursday and may change over the holidays."},
+  {"n":2,"date":"Tue 22 Dec","title":"Shanghai Disneyland, Day 1","glance":"Shanghai Disneyland, Day 1","steps":["Arrive early and prioritise the major rides.","Explore the themed lands, shows and character experiences.","Stay for the nighttime spectacular if everyone is up for it."],"tip":"Use the official Disney app to check ride queues and daily showtimes."},
+  {"n":3,"date":"Wed 23 Dec","title":"Shanghai Disneyland, Day 2","glance":"Shanghai Disneyland, Day 2","steps":["Revisit favourite rides and cover anything missed.","Give the younger children time for gentler rides and character experiences.","Enjoy Disney snacks, shopping and any seasonal entertainment."],"tip":"A second day lets the group split up for rides that suit different ages and height limits."},
+  {"n":4,"date":"Thu 24 Dec","title":"Move to Nanjing Road and The Bund","glance":"Hotel transfer, The Bund","steps":["Check out of Toy Story Hotel and transfer to Shanghai Intercity Hotel.","Leave luggage at the hotel if the room is not ready.","Late afternoon: walk The Bund and photograph the Pudong skyline.","Have dinner around The Bund or Nanjing Road."],"tip":"Allow extra time for the transfer and check-in. Christmas Eve is a good night for the skyline, but dress warmly by the waterfront."},
+  {"n":5,"date":"Fri 25 Dec","title":"Haichang Ocean Park (orcas first)","glance":"Haichang Ocean Park, orcas, Nanjing Road","steps":["Leave early for Shanghai Haichang Ocean Park.","Plan the day around the orca presentation and confirm its time on the park's official channels.","Enjoy the aquarium exhibits and indoor attractions.","Return to central Shanghai in the late afternoon or evening.","Have a relaxed dinner and browse Nanjing Road Pedestrian Street if the children still have energy."],"tip":"The orca show is the main reason for this visit, so check the exact schedule before buying tickets. It is a long day, so treat Nanjing Road as optional."},
+  {"n":6,"date":"Sat 26 Dec","title":"Day trip to Suzhou","glance":"Suzhou day trip","steps":["Take an early high-speed train from Shanghai to Suzhou.","Visit Humble Administrator's Garden if tickets and opening hours allow.","Have lunch featuring local Suzhou cuisine.","Stroll along Pingjiang Road for canals, traditional buildings, cafés and snacks.","Return to Shanghai in the evening."],"tip":"For eight people, book train seats together where possible. Keep it to the garden and the canal district."},
+  {"n":7,"date":"Sun 27 Dec","title":"Yu Garden, Louis Vuitton ship and 1000 Trees","glance":"Yu Garden, Louis Vuitton ship, 1000 Trees","blocks":[{"h":"Morning: Yu Garden","s":["Explore the classical garden and traditional architecture.","Browse the surrounding bazaar and try local snacks."]},{"h":"Afternoon: Louis Vuitton ship","s":["Visit the ship-inspired Louis Vuitton retail experience.","Allow time for photos, shopping and a meal or coffee nearby."]},{"h":"Late afternoon: Tian An 1000 Trees","s":["Explore the building with its tree-covered terraces.","Take photos of the contrast with Old Shanghai."]}],"tip":"These stops are in different parts of the city, so use taxis or ride-hailing. Confirm the exact location and access of the LV attraction before finalising the route."},
+  {"n":8,"date":"Mon 28 Dec","title":"Wukang Road, Anfu Road and 1933 Old Millfun","glance":"Wukang Road, Anfu Road, 1933 Old Millfun","blocks":[{"h":"Morning: Wukang Road","s":["Photograph Wukang Mansion and stroll the historic streets.","Stop for a leisurely breakfast or coffee."]},{"h":"Late morning: Anfu Road","s":["Browse independent shops, lifestyle stores and cafés.","Have lunch in the neighbourhood."]},{"h":"Afternoon: 1933 Old Millfun","s":["Explore the industrial architecture and walkways.","Take photos of the unusual building layout."]}],"tip":"A relaxed, photo-friendly day. Wukang and Anfu are best on foot. Take a car to 1933 Old Millfun afterwards."},
+  {"n":9,"date":"Tue 29 Dec","title":"Departure","glance":"Departure","steps":["Pack the night before and settle the bill.","Check out and travel to Pudong Terminal 2 very early.","SQ 827 departs Pudong at 08:20 and lands at Changi at 14:10."],"tip":"The flight leaves early, so book the airport transfer ahead. With eight people and luggage, plan to leave the hotel around 04:30, which is a suggestion to adjust once you know the check-in desk opening time."}
+ ],
+ "stays": [
+  {"name":"Toy Story Hotel","area":"Shanghai Disney Resort","dates":"21–24 Dec, 3 nights","status":"Booked and paid","cls":"ok","facts":[["Confirmation no.","5235054"],["Check-in","Mon 21 Dec"],["Check-out","Thu 24 Dec"],["Room","Garden View, with the 2 Nights Enjoy Discount (up to 15% off the room rate)"],["Nightly rate","21 Dec ¥1,253.99, 22 Dec ¥1,208.26, 23 Dec ¥1,213.87"],["Service charge","¥551.43"],["Total paid","¥4,227.55 (¥4,527.55 before the discount)"],["Booked through","Shanghai Disney Resort website"]],"note":"Check-in and check-out times, number of rooms and guests were not in the booking screenshot yet."},
+  {"name":"Intercity Hotel Shanghai Nanjing Road Pedestrian Street The Bund","area":"Fuzhou Road, Huangpu District","dates":"24–29 Dec, 5 nights","status":"Booked and paid","cls":"ok","facts":[["Address","No. 431 Fuzhou Road, Huangpu District, Shanghai"],["Phone","+86-21-63203999"],["Check-in","Thu 24 Dec, after 15:00"],["Check-out","Tue 29 Dec, before 12:00"],["Room","1 City Family Suite for 2 adults and 2 children (ages 12 and 14)"],["Layout","1 bedroom with a king bed (2m), a living room with a sofa bed (1.5m), 2 bathrooms"],["Meals","None included"],["Price","S$1,580.97 prepaid online, includes VAT of S$89.50"]],"note":"This booking covers one room. Times are hotel local time."}
+ ],
+ "bookings": [
+  {"item":"Flights: SQ 830 (21 Dec) and SQ 827 (29 Dec)","when":"Done","where":"Economy","status":"ok"},
+  {"item":"Intercity Hotel, 24–29 Dec (1 room)","when":"Done","where":"Prepaid online","status":"ok"},
+  {"item":"Toy Story Hotel, 21–24 Dec","when":"Done","where":"Shanghai Disney Resort website","status":"ok"},
+  {"item":"Online check-in and Early Park Entry Pass reservation","when":"Open now","where":"Shanghai Disney Resort website, My Orders","status":"todo"},
+  {"item":"Disneyland tickets for 22 and 23 Dec","when":"Before travel","where":"Shanghai Disney Resort official site or app","status":"todo"},
+  {"item":"Haichang Ocean Park tickets and orca show time","when":"Check the 25 Dec schedule first","where":"Haichang official channels","status":"todo"},
+  {"item":"Suzhou train seats for 8 (26 Dec)","when":"Before travel","where":"To be added","status":"todo"},
+  {"item":"Humble Administrator's Garden ticket requirements","when":"Before 26 Dec","where":"To be added","status":"todo"},
+  {"item":"Early airport transfer on 29 Dec (08:20 flight)","when":"Before travel","where":"To be added","status":"todo"}
+ ],
+ "decisions": ["Confirm the Louis Vuitton ship location (possibly The Louis) and how to access it.","Where the other 2 adults and 2 children stay from 24 Dec, since this booking covers one room.","Who joins which Disney rides, given height limits for the youngest."],
+ "tips": [
+  {"icon":"🧥","title":"Pack for the cold","text":"Warm coats, gloves and comfortable walking shoes. The waterfront and outdoor parks feel especially cold."},
+  {"icon":"🐋","title":"Orcas drive 25 Dec","text":"Confirm the show time on the park's official channels before buying tickets."},
+  {"icon":"🚄","title":"Seats for eight","text":"Book Suzhou train seats together. 26 Dec is a Saturday, so they can fill up."},
+  {"icon":"🚕","title":"Use cars on 27 and 28 Dec","text":"Stops are spread across the city. Ride-hailing saves time with children."},
+  {"icon":"📱","title":"Disney app","text":"Check queue times and showtimes through the official app."},
+  {"icon":"🧳","title":"Hotel transfer day","text":"If the room is not ready on 24 Dec, leave luggage and head to The Bund."}
+ ],
+ "budget": null,
+ "footer": "Details marked To be added or Confirm are not final yet. Check opening hours, show times and ticket rules before you go."
+}
+</script>
+
+<script>
+(function(){
+var D=JSON.parse(document.getElementById('trip-data').textContent);
+function e(s){return String(s==null?'':s).replace(/[&<>"]/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]})}
+function has(a){return a&&a.length}
+if(D.accent)document.documentElement.style.setProperty('--accent',D.accent);
+document.title=D.title;
+var secs=[];
+function add(id,label,html){if(html)secs.push({id:id,label:label,html:'<section id="'+id+'"><h2>'+e(label)+'</h2>'+html+'</section>'})}
+// hero
+document.getElementById('hero').innerHTML='<h1>'+e(D.title)+'</h1>'+(D.tagline?'<p>'+e(D.tagline)+'</p>':'')+(has(D.chips)?'<ul class="chips">'+D.chips.map(function(c){return '<li>'+e(c)+'</li>'}).join('')+'</ul>':'');
+// travelers
+if(has(D.travelers))add('who','Who is going','<div class="people">'+D.travelers.map(function(t){return '<div class="card"><b>'+e(t.count)+'</b>'+e(t.label)+(t.note?'<br><span>'+e(t.note)+'</span>':'')+'</div>'}).join('')+'</div>');
+if(has(D.flights))add('flights','Flights','<div class="fl">'+D.flights.map(function(f){function end(x){return '<div><div class="ft">'+e(x.code)+' '+e(x.time)+'</div><strong>'+e(x.city)+'</strong><br><small>'+e(x.airport)+(x.terminal?', '+e(x.terminal):'')+'</small></div>'}return '<div class="card"><div class="fh"><b>'+e(f.dir)+'</b>, '+e(f.date)+'<br><span>'+e(f.flight)+', '+e(f.aircraft)+', '+e(f.cabin)+'</span></div><div class="fr">'+end(f.from)+'<span class="ar" aria-hidden="true">to</span>'+end(f.to)+'</div></div>'}).join('')+'</div>');
+// glance
+if(has(D.days))add('glance','At a glance','<div class="card scroll"><table><thead><tr><th>Date</th><th>Main plan</th></tr></thead><tbody>'+D.days.map(function(d){return '<tr><td>'+e(d.date)+'</td><td>'+e(d.glance||d.title)+'</td></tr>'}).join('')+'</tbody></table></div>');
+// days
+if(has(D.days))add('days','Day by day',D.days.map(function(d){
+ var body='';
+ if(has(d.blocks))body=d.blocks.map(function(b){return '<h3>'+e(b.h)+'</h3><ul>'+b.s.map(function(x){return '<li>'+e(x)+'</li>'}).join('')+'</ul>'}).join('');
+ else if(has(d.steps))body='<ul>'+d.steps.map(function(x){return '<li>'+e(x)+'</li>'}).join('')+'</ul>';
+ return '<details class="day" open><summary><span class="dn">Day '+e(d.n)+'</span><span class="dt"><small>'+e(d.date)+'</small><strong>'+e(d.title)+'</strong></span><span class="chev" aria-hidden="true">▾</span></summary><div class="db">'+body+(d.tip?'<div class="tip"><strong>Tip:</strong> '+e(d.tip)+'</div>':'')+'</div></details>'}).join(''));
+// stays
+if(has(D.stays))add('stay','Where we are staying','<div class="stays">'+D.stays.map(function(s){return '<div class="card stay"><h3>'+e(s.name)+'</h3><div class="meta">'+e(s.area)+(s.dates?', '+e(s.dates):'')+'</div>'+(s.status?'<span class="tag '+e(s.cls||'tbc')+'">'+e(s.status)+'</span>':'')+(has(s.facts)?'<dl class="facts">'+s.facts.map(function(f){return '<dt>'+e(f[0])+'</dt><dd>'+e(f[1])+'</dd>'}).join('')+'</dl>':'')+(s.note?'<p>'+e(s.note)+'</p>':'')+'</div>'}).join('')+'</div>');
+// transport (optional)
+if(has(D.transport))add('transport','Getting around','<div class="card scroll"><table><thead><tr><th>Leg</th><th>Details</th><th>Cost</th></tr></thead><tbody>'+D.transport.map(function(t){return '<tr><td>'+e(t.leg)+'</td><td>'+e(t.details)+'</td><td>'+e(t.cost)+'</td></tr>'}).join('')+'</tbody></table></div>');
+// budget (optional)
+if(D.budget&&has(D.budget.rows))add('budget','Budget','<div class="card scroll"><table><thead><tr><th>Item</th><th>Amount</th></tr></thead><tbody>'+D.budget.rows.map(function(r){return '<tr><td>'+e(r[0])+'</td><td>'+e(r[1])+'</td></tr>'}).join('')+'</tbody></table></div>'+(D.budget.note?'<p>'+e(D.budget.note)+'</p>':''));
+// bookings
+var lab={ok:'Booked',todo:'To book',tbc:'To be added'};
+if(has(D.bookings))add('book','Booking tracker','<div class="card scroll"><table><thead><tr><th>What</th><th>When</th><th>Where</th><th>Status</th></tr></thead><tbody>'+D.bookings.map(function(b){return '<tr><td>'+e(b.item)+'</td><td>'+e(b.when)+'</td><td>'+e(b.where)+'</td><td><span class="tag '+e(b.status)+'">'+e(lab[b.status]||b.status)+'</span></td></tr>'}).join('')+'</tbody></table></div>');
+// decisions
+if(has(D.decisions))add('open','Still to decide','<div class="card"><ul class="dec">'+D.decisions.map(function(x){return '<li>'+e(x)+'</li>'}).join('')+'</ul></div>');
+// tips
+if(has(D.tips))add('tips','Good to know','<div class="tips">'+D.tips.map(function(t){return '<div class="card"><h3>'+e(t.icon)+' '+e(t.title)+'</h3><p>'+e(t.text)+'</p></div>'}).join('')+'</div>');
+// links
+if(has(D.links))add('links','Useful links','<div class="card"><ul class="dec">'+D.links.map(function(l){return '<li><a href="'+e(l.url)+'" style="color:var(--accent)">'+e(l.label)+'</a></li>'}).join('')+'</ul></div>');
+document.getElementById('main').innerHTML=secs.map(function(s){return s.html}).join('');
+document.getElementById('nav').innerHTML=secs.map(function(s){return '<a href="#'+s.id+'">'+e(s.label)+'</a>'}).join('');
+if(D.footer)document.getElementById('foot').textContent=D.footer;
+})();
+</script>
+</body>
+</html>
